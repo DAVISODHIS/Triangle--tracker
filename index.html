@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
     <head>
         <title>Triangle-Tracker</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <header>Triangle-Tracker</header>
@@ -9,18 +10,22 @@
           <h4>TRACK YOUR TRIANGLE</h4>
           <p>Enter the values of a triangle and you will get to know which type of triangle it is.</p>
           <div class="input-field">
-             <label for="num1">Side A</label>
+             <label for="num1">Side a</label>
              <input class="number" type="text" id="num1" name="num1">
           </div>
           <div class="input-field">
-             <label for="num2">Side B</label>
+             <label for="num2">Side b</label>
              <input class="number" type="number" id="num2" name="num2">
           </div>
           <div class="input-field">
-             <label for="num3">Side C</label>
+             <label for="num3">Side c</label>
              <input class="number" type="number" id="num3" name="num3">
           </div>
+          <input class="button" type="button" value="Answer !" onclick="triangle()">
+          <input class="button" type="button" value="Reset !" onclick="reset()">
+          <p id="display"></p>
         </div>
+    
     </body>
-    <script src="js/app.js"></script>
+    <script src="script.js"></script>
 </html>

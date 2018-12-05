@@ -16,7 +16,7 @@ function triangle() {
       a = parseFloat(a);
       b = parseFloat(b);
       c = parseFloat(c);
-      Track(a,b,c);
+      track=(a,b,c);
     }
 }
 function track(a,b,c) {
@@ -37,4 +37,8 @@ function track(a,b,c) {
   else {
     display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a triangle</p><p>The sum of any two sides should be <span class='fill'>GREATER</span> than the third side</p>"
   }
+}
+
+function reset(){
+location.reload ();
 }
