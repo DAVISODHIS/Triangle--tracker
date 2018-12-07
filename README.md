@@ -1,21 +1,21 @@
-##Triangle-Tracker
+## Triangle-Tracker
 ------------------------------------------------------------------------------------------------------
-#####Author
+## Author
 Davis Opondo
 ------------------------------------------------------------------------------------------------------
-####Description
+## Description
 This is a webpage that allows users to enter three sides of a triangle and checks whether the triangle is equilateral,isoscles,scalene or not a triangle It does not allow users to input non-numerical value
 ------------------------------------------------------------------------------------------------------
-###Prerequisites
+## Prerequisites
 You need to have git installed You can install it with the following command in your terminal $ sudo apt install git-all
 ------------------------------------------------------------------------------------------------------
-###Technologies Used
+## Technologies Used
 HTML
 CSS
 JavaScript
 Git
 ------------------------------------------------------------------------------------------------------
-###Program Behaviour
+## Program Behaviour
 -------------------------------------------------
 Behaviour|	Input Example|	Output Example
 -------------------------------------------------
@@ -35,9 +35,9 @@ When the sum of any two sides > first side|	8,5,2|	That is NOT a triangle
 ---------------------------------------------------------------------------
 When the user doesn't enter a number	|"the", 2,4	|That is NOT a number
 ----------------------------------------------------------------------------
-
-##project link
+--------------------------------------------------------------------------
+## project link
 https://davisodhis.github.io/Triangle--tracker/
 ----------------------------------------------------------------------------
-#####Lincense
+##### Lincense
 MIT
