@@ -1,47 +1,52 @@
 body {
-    text-align: center; 
-    font-family:serif;
-    font-size: 30px;
-    background-image: url("https://i.pinimg.com/564x/f7/10/db/f710dbfba6e742335bee3d0b8382db32.jpg")
-  }
-  header {
-    color: white;
-    font-family:sans-serif;
-  }
-  .body {
-    width: 40%;
-    border-radius: 10px;
-    background:rosybrown;
-    text-align: center;
-    margin: 0 auto;
-    padding: 1%;
-    height: auto;
-  
-  }
-  
-  .input-field {
-    display: block;
-    margin: 20px;
-  }
-  
-  .input-field label {
-    margin-right: 90px;
-  }
-  .input:active {
-    border-color:  #428bca;
-  }
-  .button {
-    text-align: center;
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 7px;
-    background: #428bca;
-    border: 1px solid #428bca;
-    color: white;
-    outline-style: none;
-    font-family: Text Me One;
-  }
-  .button:hover {
-    color: 	#428bca;
-    background-color: white;
-  }
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+  background-image: url("https://i.pinimg.com/564x/f7/10/db/f710dbfba6e742335bee3d0b8382db32.jpg")
+}
+
+header {
+  color: white;
+  font-family: sans-serif;
+}
+
+.body {
+  width: 40%;
+  border-radius: 10px;
+  background: rosybrown;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1%;
+  height: auto;
+
+}
+
+.input-field {
+  display: block;
+  margin: 20px;
+}
+
+.input-field label {
+  margin-right: 90px;
+}
+
+.input:active {
+  border-color: #428bca;
+}
+
+.button {
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 7px;
+  background: #428bca;
+  border: 1px solid #428bca;
+  color: white;
+  outline-style: none;
+  font-family: Text Me One;
+}
+
+.button:hover {
+  color: #428bca;
+  background-color: white;
+}
