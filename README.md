@@ -14,9 +14,9 @@ You need to have git installed You can install it with the following command in 
 
 ------------------------------------------------------------------------------------------------------
 ## Technologies Used
-HTML
-CSS
-JavaScript
+HTML,
+CSS,
+JavaScript and
 Git
 
 ------------------------------------------------------------------------------------------------------
